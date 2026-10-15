@@ -4,6 +4,10 @@ import game.core.Karakter;
 
 public class Karakter1 extends Karakter {
 
+    public Karakter1(String nama) {
+        this(nama, 100);
+    }
+
     public Karakter1(String nama, int stamina) {
         super(nama, stamina);
     }
